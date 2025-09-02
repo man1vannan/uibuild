@@ -337,9 +337,21 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
+.check-icon {
+  color: #16c60c; /* green */
+  /* background-color: #eafff0; optional pale bg */
+  border-radius: 50%;
+  border: 2px solid #16c60c;
+  padding: 2px 2px;
+  font-size: 0.6rem;
+  margin-right: 8px;
+}
 
 .benefit-list li strong {
   font-weight: 600;
+}
+.benefit-list li span {
+  color: #555;
 }
 .testimonials {
   background-color: #f6fbf9;
@@ -677,7 +689,7 @@ form textarea {
 /* Mobile responsive fixes */
 @media (max-width: 600px) {
   .footer-container {
-    text-align: center;
+    text-align: left;
     display: block;        /* Stack all footer sections vertically */
   }
 
@@ -686,13 +698,13 @@ form textarea {
   }
 
   .footer-logo {
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     padding-top: 0;
   }
 
   .flogo {
-    justify-content: center;
+    justify-content: left;
   }
   .flogo span {
     margin-top:-10px
