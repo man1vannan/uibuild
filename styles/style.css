@@ -11,7 +11,6 @@ body {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
 }
 
 .navbar {
@@ -46,7 +45,7 @@ body {
     width: 150px;
     top: 14%;
     left: 56px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -59,9 +58,9 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('../resources/images/banner.avif') center center/cover no-repeat;
+  background: url('../resources/images/banner.jpg') center center/cover no-repeat;
   color: white;
-  padding: 6rem 2rem;
+  padding: 14rem 2rem;
   text-align: center;
   position: relative;
 }
@@ -148,19 +147,24 @@ body {
 }
 
 .icon {
-  width: 50px;
+  /* width: 50px;
   height: 50px;
   margin: 0 auto 1rem;
   font-size: 1.5rem;
   line-height: 50px;
   border-radius: 50%;
-  background: #eee;
+  background: #eee; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  margin: auto;
 }
 
-.green { background: #c2f0c2; }
-.blue { background: #cce7ff; }
-.orange { background: #ffd4b3; }
-.yellow { background: #fff7b3; }
+.green { background: #a9d7ae; }
+.blue { background: #95d1ec; }
+.orange { background: #fab49b; }
+.yellow { background: #fff197; }
 
 .feature h3 {
   margin: 0.5rem 0;
@@ -238,15 +242,15 @@ body {
 }
 
 .hot {
-  color: #22c55e;
+  color: #a9d7ae;
 }
 
 .dedicated {
-  color: #3b82f6;
+  color: #95d1ec;
 }
 
 .private {
-  color: #f97316;
+  color: #fab49b;
 }
 
 .plan-card ul {
@@ -272,17 +276,18 @@ body {
 }
 
 .highlighted {
-  border: 2px solid #3b82f6;
+  border: 2px solid #85a4ff;
   position:relative;
 }
 .tag{
     position: absolute;
     top: -10px;
     right: 15px;
-    background-color: #3b82f6;
+    background-color: #85a4ff;
     color: white;
     padding: 0.3rem 0.6rem;
     font-weight: 500;
+    font-size: 12px;
     border-radius: 20px;
 }
 .workspace-benefits {
@@ -434,9 +439,14 @@ body {
   font-weight: 500;
   color: #333;
   min-width: 140px;
+  /* width:200px; */
   transition: all 0.3s ease;
 }
-
+.et,.ys,.lm,.bl{
+    width: 200px;
+    height: 25px;
+    object-fit: contain;
+}
 .media-logo:hover {
   background: #d1d1d1;
 }

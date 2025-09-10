@@ -62,25 +62,29 @@
 
   <div class="features-grid">
     <div class="feature">
-      <div class="icon green">⚡</div>
+      <!-- <div class="icon green">⚡</div> -->
+      <div class="icon green"><svg class="w-8 h-8 text-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
       <h3>Blazing-Fast Internet</h3>
       <p>Uninterrupted, enterprise-grade Wi-Fi to keep you connected.</p>
     </div>
 
     <div class="feature">
-      <div class="icon blue">👥</div>
+      <!-- <div class="icon blue">👥</div> -->
+      <div class="icon blue"><svg class="w-8 h-8 text-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg></div>
       <h3>Vibrant Community</h3>
       <p>Networking events, workshops, and a collaborative atmosphere.</p>
     </div>
 
     <div class="feature">
-      <div class="icon orange">📧</div>
+      <!-- <div class="icon orange">📧</div> -->
+      <div class="icon orange"><svg class="w-8 h-8 text-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg></div>
       <h3>Flexible Memberships</h3>
       <p>From a single desk to a whole floor, we scale with your business.</p>
     </div>
 
     <div class="feature">
-      <div class="icon yellow">🕒</div>
+      <!-- <div class="icon yellow">🕒</div> -->
+      <div class="icon yellow"><svg class="w-8 h-8 text-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
       <h3>24/7 Access</h3>
       <p>Work on your schedule, not ours. Secure access around the clock.</p>
     </div>
@@ -108,7 +112,7 @@
 
     <!-- Plan 2 -->
     <div class="plan-card highlighted">
-      <span class="tag">Most Popular</span>
+      <span class="tag">MOST POPULAR</span>
       <h3 class="dedicated">Dedicated Desk</h3>
       <p>Your own personal desk in a shared office. The perfect mix of personal space and community.</p>
       <ul>
@@ -135,7 +139,7 @@
 <section class="workspace-benefits">
   <div class="container">
     <div class="image-column">
-      <img src="resources/images/side1.avif" alt="Workspace Image" />
+      <img src="resources/images/side1.jpg" alt="Workspace Image" />
     </div>
     <div class="text-column">
       <h2>Workspace When You Need It, Where You Need It.</h2>
@@ -210,10 +214,10 @@
   <div class="container">
     <h4>As Featured In</h4>
     <div class="media-logos">
-      <div class="media-logo">The Economic Times</div>
-      <div class="media-logo">YourStory</div>
-      <div class="media-logo">Livemint</div>
-      <div class="media-logo">BusinessLine</div>
+      <div class="media-logo"><img class="et" src="resources/images/et.png"></div>
+      <div class="media-logo"><img class="ys" src="resources/images/ys.svg"></div>
+      <div class="media-logo"><img class="lm" src="resources/images/lm.svg"></div>
+      <div class="media-logo"><img class="bl" src="resources/images/bl.svg"></div>
     </div>
   </div>
 </section>
