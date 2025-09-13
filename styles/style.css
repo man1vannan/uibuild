@@ -587,6 +587,10 @@ form textarea {
 
 /* Mobile View Fixes */
 @media (max-width: 768px) {
+    .image-column img {
+      height: fit-content;
+      margin-top:5rem;
+    }
     .partner-section {
         flex-direction: column;
         align-items: stretch;
